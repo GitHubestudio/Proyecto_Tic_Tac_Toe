@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState , useEffect} from 'react'
 import { Square } from './components/Square.jsx'
 import { TURNS } from './logic/constants.js'
 import { checkWinner, checkEndGame } from './logic/board.js'
@@ -20,6 +20,10 @@ function App() {
   
   const [winner, setWinner] = useState(null)
 
+  useEffect(() => {
+  saveGameStorage({ board, turn })
+  }, [board, turn])
+
   const resetGame= () =>{
     setBoard(Array(9).fill(null))
     setTurn(TURNS.x)
@@ -37,10 +41,10 @@ function App() {
     const newTurn = turn === TURNS.x ? TURNS.o : TURNS.x
     setTurn(newTurn)
 
-    saveGameStorage({
-      board: newBoard,
-      turn: newTurn
-    })
+    //saveGameStorage({
+    //  board: newBoard,
+    //  turn: newTurn
+    //})
 
     const newWinner = checkWinner(newBoard)
     if(newWinner){
