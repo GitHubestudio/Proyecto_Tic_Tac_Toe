@@ -9,7 +9,8 @@ El desarrollo incluye componentes reutilizables y modularizados, funciones para 
 Este proyecto sirvió para entender mejor la gestión del estado, el renderizado condicional, el manejo de listas y la integración de librerías externas dentro de una aplicación React moderna y funcional.
 
 
-![Captura de pantalla 2025-06-19 192523](https://github.com/user-attachments/assets/c25078f6-8766-4c77-b35a-74e1163da000)
+![image](https://github.com/user-attachments/assets/7966f48c-589a-4cc1-b1a9-ec8627d036e2)
+
 
 ---
 
@@ -39,26 +40,6 @@ Características principales:
 ## 🗂️ Estructura del Proyecto
 
 ![image](https://github.com/user-attachments/assets/939f6912-842d-4031-b9f5-f97539032c14)
-
----
-
-## 🕹️ Cómo ejecutar el proyecto
-
-1. Clonar el repositorio:
-
-git clone https://github.com/tu-usuario/tu-repo.git
-
-cd tu-repo
-
-2. Instalar dependencias:
-
-npm install
-
-3. Ejecutar en modo desarrollo:
-
-npm run dev
-
-4. Abrir en navegador
 
 ---
 
