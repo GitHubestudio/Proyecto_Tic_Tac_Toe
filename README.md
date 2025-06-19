@@ -45,15 +45,15 @@ Características principales:
 
 # 🧑‍💻 Detalles Técnicos
 
-Estado React con Hooks: useState para manejar tablero, turno y ganador.
+- Estado React con Hooks: useState para manejar tablero, turno y ganador.
 
-Persistencia: useEffect sincroniza el estado con localStorage automáticamente.
+- Persistencia: useEffect sincroniza el estado con localStorage automáticamente.
 
-Lógica del juego: Funciones para detectar ganador y empate con combinaciones ganadoras predefinidas.
+- Lógica del juego: Funciones para detectar ganador y empate con combinaciones ganadoras predefinidas.
 
-Componentes: Square representa cada casilla y Winner muestra el resultado final.
+- Componentes: Square representa cada casilla y Winner muestra el resultado final.
 
-Animaciones: Se utiliza canvas-confetti para efecto visual al ganar.
+- Animaciones: Se utiliza canvas-confetti para efecto visual al ganar.
 
 ---
 
@@ -61,15 +61,15 @@ Animaciones: Se utiliza canvas-confetti para efecto visual al ganar.
 
 Este proyecto fue realizado para aprender y practicar React, incluyendo:
 
--Manejo de estado con hooks.
+- Manejo de estado con hooks.
 
--Renderizado condicional y listas.
+- Renderizado condicional y listas.
 
--Separación de lógica y componentes.
+- Separación de lógica y componentes.
 
--Persistencia de estado en localStorage.
+- Persistencia de estado en localStorage.
 
--Integración de librerías externas para animaciones.
+- Integración de librerías externas para animaciones.
 
 ---
 
