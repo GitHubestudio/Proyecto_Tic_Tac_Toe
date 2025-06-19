@@ -2,6 +2,7 @@
 
 Juego clásico de **Tic Tac Toe (Tres en línea)** desarrollado con React, siguiendo un tutorial de Midudev. El objetivo fue practicar React, manejo de estado, eventos y persistencia.
 
+
 ![Captura de pantalla 2025-06-19 192523](https://github.com/user-attachments/assets/c25078f6-8766-4c77-b35a-74e1163da000)
 
 ---
