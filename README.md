@@ -79,3 +79,6 @@ Este proyecto fue realizado para aprender y practicar React, incluyendo:
 
 💼 Software Developer en formación / Técnico Universitario en Programación
 
+![image](https://github.com/user-attachments/assets/6d8425fe-43eb-40dd-87c6-6c563dddc52a)
+
+
