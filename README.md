@@ -1,6 +1,12 @@
 # 🎮 Tic Tac Toe React
 
-Juego clásico de **Tic Tac Toe (Tres en línea)** desarrollado con React, siguiendo un tutorial de Midudev. El objetivo fue practicar React, manejo de estado, eventos y persistencia.
+Este proyecto es una versión del clásico juego Tic Tac Toe (Tres en línea) desarrollado con React, basado en un tutorial de Midudev. El objetivo principal fue practicar conceptos fundamentales de React como el manejo de estado con hooks, eventos y persistencia de datos.
+
+Permite que dos jugadores se turnen para colocar una X o una O en un tablero de 3x3, y detecta automáticamente cuándo hay un ganador o un empate. Además, el juego guarda el progreso en el navegador usando localStorage, para que se pueda continuar incluso después de recargar la página.
+
+El desarrollo incluye componentes reutilizables y modularizados, funciones para validar combinaciones ganadoras y la incorporación de una animación visual con canvas-confetti que celebra cuando un jugador gana.
+
+Este proyecto sirvió para entender mejor la gestión del estado, el renderizado condicional, el manejo de listas y la integración de librerías externas dentro de una aplicación React moderna y funcional.
 
 
 ![Captura de pantalla 2025-06-19 192523](https://github.com/user-attachments/assets/c25078f6-8766-4c77-b35a-74e1163da000)
